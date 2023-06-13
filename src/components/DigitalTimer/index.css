@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.head {
+  font-size: 30px;
+  font-weight: 700;
+}
+.digital-container {
+  display: flex;
+  flex-direction: row;
+}
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 280px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.elapsed-con {
+  background-color: #ffffff;
+  border-radius: 60px;
+  width: 120px;
+  text-align: center;
+  height: 120px;
+}
+.elapsed-time {
+  display: flex;
+  flex-direction: column;
+}
+.limit-label {
+  font-size: 20px;
+}
+.timer-limit {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  border: none;
+}
+.controller-btn {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+}
+.limit-label-container {
+  font-size: 25px;
+  color: black;
+  font-weight: 700px;
+  background-image: linear-gradient(
+    to bottom,
+    #cffcf1,
+    #defafe,
+    #00d9f5,
+    #00d9f5
+  );
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 70px;
+  padding: 10px;
+  text-align: center;
+}
+.limit-value {
+  font-size: 14px;
+}
+.time-controller {
+  display: flex;
+  flex-direction: row;
+}
+.time-control-btn {
+  background-color: transparent;
+  border: none;
+}
+.time-control-icon {
+  width: 50px;
+  height: 50px;
+}
+.time-control-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+.timer-para {
+  font-size: 16px;
+  font-weight: 700;
+}
+.controls-con {
+  display: flex;
+  flex-direction: column;
+}
